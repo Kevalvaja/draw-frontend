@@ -1,7 +1,6 @@
 import axios from "axios";
 
-export const API_URL = "http://localhost:2000"
-
+export const API_URL = "https://tcp-chat-application-backend.vercel.app"
 const api = axios.create({
     baseURL: API_URL,
     timeout: 20000
